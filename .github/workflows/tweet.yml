@@ -29,4 +29,4 @@ jobs:
           API_SECRET: ${{ secrets.API_SECRET }}
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           ACCESS_SECRET: ${{ secrets.ACCESS_SECRET }}
-        run: python bot_finanzas.py
+        run: python bot_productividad.py
