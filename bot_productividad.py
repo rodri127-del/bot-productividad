@@ -28,8 +28,8 @@ try:
 except FileNotFoundError:
     herramientas = []
 
-# Decide: 70% frase, 30% herramienta
-if herramientas and random.random() < 0.3:
+# Decide: 80% frase, 20% herramienta
+if herramientas and random.random() < 0.2:
     tweet = random.choice(herramientas) + " " + " ".join(random.sample(hashtags, 2))
 else:
     frase = random.choice(frases)
